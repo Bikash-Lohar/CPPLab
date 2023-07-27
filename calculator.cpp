@@ -8,6 +8,7 @@ int main(){
     cout<<"Enter second number:";
     cin>>b;
     calc(a,b);
+    return 0;
 }
 void calc(float x, float y){
     int opr;
