@@ -15,7 +15,8 @@ int prime (int n){
         cout<<"The product is 0";
         return 0;
     }
-    for (i = 2; i<n; i++){
+    cout<<"1 is not a prime number\n";
+    for (i = 2; i<=; i++){
         flag = 0;
         for (j = 2; j<i; j++){
             if (i%j == 0){
